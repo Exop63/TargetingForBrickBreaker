@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c7642fe39632240b20d24ad851f1b0, type: 3}
+  m_Name: StartPoint
+  m_EditorClassIdentifier: 
+  startPosition: {x: -0.53, y: -8.67}
+  mousePosition: {x: -1.6574584, y: -4.6961327}
+  direction: {x: -0.27294528, y: 0.9620295}
+  canShot: 1
+  canShotRange: 0.95
+  dot: 0.27294528
