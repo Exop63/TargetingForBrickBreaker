@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.exop.targeter": {
+      "version": "https://github.com/Exop63/exopTargeter.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8a3eaa1edfd81c877d94390fb919f2225890a76e"
+    },
     "com.unity.2d.animation": {
       "version": "3.2.5",
       "depth": 0,

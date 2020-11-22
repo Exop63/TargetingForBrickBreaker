@@ -572,7 +572,6 @@ MonoBehaviour:
   reflectionPoint: {fileID: 6304589390511209431, guid: 5796c92cecf7e424fa0282090c5fbf32,
     type: 3}
   startPointData: {fileID: 11400000, guid: 039f46c660e4e664b88d7cac5a78d60d, type: 2}
-  lineRenderer: {fileID: 1348666697}
 --- !u!114 &1348666696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,7 +749,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1683735027}
-  - component: {fileID: 1683735029}
   - component: {fileID: 1683735028}
   m_Layer: 0
   m_Name: Cage
@@ -793,7 +791,7 @@ MonoBehaviour:
   shot:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1683735029}
+      - m_Target: {fileID: 0}
         m_MethodName: Shot
         m_Mode: 1
         m_Arguments:
@@ -807,18 +805,6 @@ MonoBehaviour:
   endDrag:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1683735029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683735026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad10cf7f05173e4f9b093009c9ee4c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1751945920
 GameObject:
   m_ObjectHideFlags: 0
